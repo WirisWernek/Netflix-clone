@@ -32,6 +32,7 @@ header nav a {
   text-decoration: none;
   color: var(--cinza);
   margin-right: 10px;
+  margin-left: 5px;
 }
 header nav a:hover {
   color: var(--branco);
@@ -85,4 +86,9 @@ header nav a:hover {
 
 .filme-principal .container {
   width: 70%;
+}
+.box-film {
+  height: 100%;
+  width: 100%;
+  display: block;
 }
